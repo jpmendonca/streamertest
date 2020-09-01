@@ -26,6 +26,8 @@ Fique a vontade para programar como você costuma programar. Será analisada a o
 ### Model
 Criar a seguinte tabela, através do Code-First do Entity Framework Core.
 
+Realizar as atualizações no banco de dados através das Migrations do EF Core
+
 **Table:** Projects
 
 | **Nome**        | **Tipo**              |
@@ -37,7 +39,7 @@ Criar a seguinte tabela, através do Code-First do Entity Framework Core.
 | What            | String                |
 | WhatWillWeDo    | String                |
 | ProjectStatus   | ProjectStatus (Enum)  |
-| Course          | Course [REQUIRED]     |  
+| Course          | Course [REQUIRED]     |
 | CourseId        | Int (FK de Course)    |
 
 #### Relacionamentos  
@@ -48,10 +50,10 @@ Criar a seguinte tabela, através do Code-First do Entity Framework Core.
 1 - Publicado
 
 ### Services
-Criar uma classe com os serviços necessários para realizar a criação, edição, remoção e listagem da entidade Project via DBContext (./Data/StreamerContext.cs)
+Criar uma classe em ./Service com os acessos necessários para realizar a criação, edição, remoção e listagem da entidade 'Project' via DBContext (./Data/StreamerContext.cs)
 
 ### Controller
-Realizar a injeção de dependência da classe de serviços e criar os seguintes métodos:
+Realizar a injeção de dependência da classe de serviços (./Service) e criar os seguintes métodos:
 
 #### GetById
 [HttpGet]  
