@@ -19,7 +19,7 @@ Classes de serviços de acesso ao banco de dados
 Sqlite DB
 
 ## Objetivo
-Desenvolver um CRUD da entidade 'Project'
+Desenvolver um CRUD da entidade 'Project'.
 
 ### Model
 Criar a seguinte tabela, através do Code-First do Entity Framework Core.
@@ -45,5 +45,34 @@ Criar a seguinte tabela, através do Code-First do Entity Framework Core.
 0 - Em desenvolvimento  
 1 - Publicado
 
+### Services
+Criar uma classe com os serviços necessários para realizar a criação, edição, remoção e listagem da entidade Project via DBContext (./Data/StreamerContext.cs)
 
+### Controller
+Realizar a injeção de dependência da classe de serviços e criar os seguintes métodos:
+
+#### GetById
+[HttpGet]  
+Recebe um ID de um 'Project'.  
+Retorna um objeto do tipo 'Project'.
+
+#### GetByCourse
+[HttpGet]  
+Recebe um ID de um 'Course'.  
+Retorna uma lista genérica de 'Project'.
+
+#### Update
+[HttpPut]  
+Recebe um objeto do tipo 'Project' e realiza a atualização do mesmo.  
+Retorna um valor booleano.
+
+#### Delete
+[HttpDelete]  
+Recebe um ID de um 'Course' e realiz a remoção do mesmo.  
+Retorna um valor booleano.
+
+#### Create
+[HttpPost]  
+Recebe um objeto do tipo Project e realiza a inserção no banco de dados.  
+Retorna o Id do 'Project' inserido.
 
