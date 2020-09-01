@@ -53,7 +53,7 @@ Realizar as atualizações no banco de dados através das Migrations do EF Core
 Criar uma classe em ./Service com os acessos necessários para realizar a criação, edição, remoção e listagem da entidade 'Project' via DBContext (./Data/StreamerContext.cs)
 
 ### Controller
-Realizar a injeção de dependência da classe de serviços (./Service) e criar os seguintes métodos:
+Criar os seguintes métodos:
 
 #### GetById
 [HttpGet]  
