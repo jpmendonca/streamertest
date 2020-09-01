@@ -5,7 +5,7 @@
     <RootNamespace>SS_API</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>..\SS-API\SS-API.xml</DocumentationFile>
+    <DocumentationFile>.\bin\Debug\netcoreapp2.2\SS-API.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="DocumentFormat.OpenXml" Version="2.11.3"/>
