@@ -18,8 +18,10 @@ Classes de serviços de acesso ao banco de dados
 **./SS_DB.db**  
 Sqlite DB
 
-## Objetivo
+## O que fazer?
 Desenvolver um CRUD da entidade 'Project'.
+
+Fique a vontade para programar como você costuma programar. Será analisada a organização, criatividade e elegância do código. Como trata-se apenas de um teste, qualquer dúvida que surgir no meio do caminho, resolva como você achar que é mais coerente.
 
 ### Model
 Criar a seguinte tabela, através do Code-First do Entity Framework Core.
@@ -73,6 +75,6 @@ Retorna um valor booleano.
 
 #### Create
 [HttpPost]  
-Recebe um objeto do tipo Project e realiza a inserção no banco de dados.  
+Recebe um objeto do tipo Project e realiza a inserção no banco de dados.
 Retorna o Id do 'Project' inserido.
 
