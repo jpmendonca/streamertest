@@ -21,7 +21,7 @@ Sqlite DB
 ## O que fazer?
 Desenvolver um CRUD da entidade 'Project'.
 
-Fique a vontade para programar como você costuma programar. Será analisada a organização, criatividade e boas-práticas do código. Como trata-se apenas de um teste, qualquer dúvida que surgir no meio do caminho, resolva como você achar que é mais coerente.
+Fique a vontade para programar como você costuma programar. Será analisada a organização, criatividade e boas práticas do código. Como trata-se apenas de um teste, qualquer dúvida que surgir no meio do caminho, resolva como você achar que é mais coerente.
 
 ### Model
 Criar a seguinte tabela, através do Code-First do Entity Framework Core.
