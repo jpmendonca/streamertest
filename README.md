@@ -72,7 +72,7 @@ Retorna um valor booleano.
 
 #### Delete
 [HttpDelete]  
-Recebe um ID de um 'Course' e realiz a remoção do mesmo.  
+Recebe um ID de um 'Project' e realizar a remoção do mesmo.  
 Retorna um valor booleano.
 
 #### Create
