@@ -18,6 +18,8 @@ Classes de serviços de acesso ao banco de dados
 **./SS_DB.db**  
 Sqlite DB
 
+**ATENÇÃO: é importante manter a estrutura do projeto como está. A intenção do teste é puramente analisar o modo em que você escreve o seu código e se organiza dentro dessa estrutura. Caso ache necessário, fique à vontade para criar novas pastas.**
+
 ## O que fazer?
 Desenvolver um CRUD da entidade 'Project'.
 
@@ -80,3 +82,12 @@ Retorna um valor booleano.
 Recebe um objeto do tipo Project e realiza a inserção no banco de dados.
 Retorna o Id do 'Project' inserido.
 
+----
+
+# STREAMER-TEST FRONT-END
+
+Para nós, é importante ver como é o seu desempenho também no front-end, mas nesse caso, nós não criamos um projeto base. Pedimos apenas que crie uma aplicação Angular que consuma e realize todas as request criadas para a API. 
+
+Dessa forma conseguiremos ver toda a atmosfera da aplicação funcionando. Desde de as telas realizando as requisições, o banco de dados armazenando as informações e a API retornando a resposta para o front novamente exibir.
+
+É importante que a navegação seja clara, porém não levaremos em consideração a identidade visual e nem o design da aplicação.
